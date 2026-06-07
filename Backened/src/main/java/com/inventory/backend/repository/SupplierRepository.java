@@ -1,5 +1,13 @@
 package com.inventory.backend.repository;
 
-public class SupplierRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public class SupplierRepository extends jpaRepository <Supplier,Long>{
+
+    
+
+
+
+
 
 }
