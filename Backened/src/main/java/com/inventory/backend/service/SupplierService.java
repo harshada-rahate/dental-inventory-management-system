@@ -21,7 +21,10 @@ public class SupplierService {
         return repository.save(supplier);
     }
 
-
+    public Supplier getSupplierById(Long id){
+        return repository.findById(id)
+                .orElseThrow();
+    }
 
 
 
